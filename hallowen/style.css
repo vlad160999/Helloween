@@ -1,0 +1,60 @@
+
+body{
+    background: url("img/1593809189_9-p-fon-dlya-prezentatsii-kosmos-10.jpg")no-repeat center;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+
+
+#canvas{
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+   
+}
+
+@media screen and (max-width:1200px){
+    .container{
+        max-width: 1140px;
+    }
+}
+
+@media screen and (max-width:1199px){
+    .container{
+        max-width: 960px;
+
+    }
+}
+
+@media screen and (max-width:991px){
+    .container{
+        max-width: 720px;
+        
+    }
+    #canvas{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:767px){
+    .container{
+        max-width: 540px;
+        
+    }
+    #canvas{
+        width: 100%;
+    }
+}
+
+
+
